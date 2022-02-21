@@ -141,7 +141,14 @@ th {
 }
 
 @media (max-width:642px) {
-    header {
-        padding: 10px;
-    }
+    
+header {
+    padding-bottom: 0px;;
+}
+
+header li {
+    padding-bottom: 0px;
+}
+    
+    
 }
