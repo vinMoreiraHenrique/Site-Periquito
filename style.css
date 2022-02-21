@@ -107,7 +107,9 @@ th {
     width: 50vw;
 }
 
-@media (max-width:1430px) {
+@media (max-width:999px) {
+
+    
 
     article {
         justify-content: center;
@@ -135,5 +137,11 @@ th {
         line-height: 50px;
         font-size: 1.2rem;
         
+    }
+}
+
+@media (max-width:642px) {
+    header {
+        padding: 10px;
     }
 }
