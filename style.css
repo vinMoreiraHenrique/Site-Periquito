@@ -28,6 +28,10 @@ header {
 
 }
 
+header {
+    word-wrap: normal;
+}
+
 header h1 {
     font-size: 50px;
     color: white;
