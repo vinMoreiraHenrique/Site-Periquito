@@ -1,6 +1,7 @@
 * {
-    padding: 0;
-    margin: 0;
+    
+    padding: 0px;
+    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
     font-size: 1.2rem;
@@ -16,6 +17,7 @@
 
 body {
     background-color: white;
+    
 }
 
 header {
@@ -26,6 +28,7 @@ header {
     align-items: center;
     padding: 20px;
     transition: 0.5s;
+    padding-bottom: 0px;
 }
 
 header a{
@@ -36,10 +39,12 @@ header a{
 header h1 {
     font-size: 50px;
     color: white;
+    padding-bottom: 20px;
 }
 
 header li {
-    margin: 10px;
+   
+    padding-bottom: 0px;
 }
 
 header a {
@@ -71,17 +76,17 @@ header li :hover {
 }
 
 .img {
-    max-width: 100%;
+    
     display: block;
     background-color: #92D9FF;
     padding: 10px;
     
 }
 
-.flex{
+.flex {
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
+    width: 100%;
     
     justify-content: center;
     margin: 0 auto;
@@ -95,6 +100,21 @@ header li :hover {
     line-height: 40px;
     text-align: center;
     background-color: var(--cor03)
+}
+
+.flex2 {
+    background-color: white;
+    display: flex;
+    min-width: 96vw;
+    
+    
+}
+
+.flex2 p {
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 10px;
+    padding-right: 0px;
 }
 
 article {
@@ -119,6 +139,32 @@ th {
     width: 50vw;
 }
 
+.texto {
+    transition: 0.5s;
+    background-color: #fff;
+    color: black;
+    text-align: justify;
+    font-size: 1.2rem;
+    padding: 15px;
+}
+
+.pequena {
+   
+    width: 275px;
+    height: 183px;
+    display: block;
+    
+
+}
+
+.separador {
+    background-color: var(--cor05);
+    height: 5px;
+    padding: 0px;
+} 
+
+
+
 @media (max-width:1445px) {
     th {
         text-align: center;
@@ -132,6 +178,10 @@ th {
         padding: 0px;
     }
 
+    .capa {
+        width: 96vw;
+    }
+
 }
 
 @media (max-width:999px) {
@@ -140,14 +190,25 @@ th {
         transition: 1s;
     }
 
+    .flex2 {
+        justify-content: center;
+        
+    }
+
+    .flex2  {
+        flex-wrap: wrap;
+    }
+
     article {
         justify-content: center;
         
     }
 
-    img {
+    .capa {
         min-width: 96vw;
     }
+
+    
 
     table {
         
@@ -162,7 +223,7 @@ th {
 
     td {
         text-align: center;
-        padding: 0;
+        padding: 0px;
         line-height: 50px;
         font-size: 1.2rem;
         
@@ -172,7 +233,9 @@ th {
 @media (max-width:642px) {
     
 header {
-    padding-bottom: 0px;;
+    padding-bottom: 0px;
+    justify-content: center;
+    transition: 1s;
 }
 
 header li {
@@ -181,10 +244,19 @@ header li {
 }
 
 
-header {
-    justify-content: center;
-    transition: 1s;
+
+.pequena {
+    width: 275px;
+    height: 183px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
+
+
+
 
     
     
