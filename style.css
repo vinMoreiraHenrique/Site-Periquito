@@ -7,6 +7,16 @@
     font-size: 1.2rem;
 }
 
+@font-face {
+    font-family: Hubbali;
+    src: url(Hubballi-Regular.ttf) format('truetype');
+}
+
+p {
+    font-family: 'Hubbali';
+    font-size: 1.7rem;
+}
+
 :root {
     --cor01: #F3D9B1;
     --cor02: #C29979;
@@ -29,13 +39,15 @@ header {
     padding: 20px;
     transition: 0.5s;
     padding-bottom: 0px;
+    
     ;
 }
 
 header a{
     word-wrap: normal;
     text-align: center;
-    
+    font-family: 'Hubbali';
+    font-size: 1.5rem;
 }
 
 header h1 {
@@ -141,7 +153,7 @@ header li :hover {
 
 .flex2 p {
     width: 100%;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     padding: 10px;
     
     
@@ -183,7 +195,7 @@ th {
     margin-top: auto;
     margin-bottom: auto;
     text-indent: 2em;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     text-align: justify;
     padding-left: auto;
     padding-right: auto;
