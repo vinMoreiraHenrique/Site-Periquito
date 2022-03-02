@@ -29,11 +29,13 @@ header {
     padding: 20px;
     transition: 0.5s;
     padding-bottom: 0px;
+    ;
 }
 
 header a{
     word-wrap: normal;
     text-align: center;
+    
 }
 
 header h1 {
@@ -48,17 +50,20 @@ header li {
 }
 
 header a {
+    
     text-decoration: none;
     color: white;
 }
 
 header li :hover {
-    transition: 0.5s;
-    background-color: #7e7583;
+    transition: .5s;
+    
     color: var(--cor03);
-    border-radius: 10px;
-    height: 100%;
-    padding: 0px;
+    
+    
+    
+    
+    transform: translateY(-10px);
     
 }
 
@@ -73,17 +78,31 @@ header li :hover {
 .menu li a {
     display: block;
     padding: 10px;
+    bottom: 0;
 }
 
 .img {
     
-    display: block;
+    
     background-color: #92D9FF;
     padding: 10px;
    
+   
     
 }
-
+/*
+.pequena3:hover {
+    
+    transition: .5s;
+    position: relative;
+    
+    left: 50%;
+    
+    transform: scale(1.5);
+    
+    
+}
+*/
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -92,16 +111,24 @@ header li :hover {
     justify-content: center;
     margin: 0 auto;
     background-color: #92D9FF;
+    
 }
 
 .flex > article {
     flex: 1 1 250px;
     transition: .5s;
     padding: 10px;
-    line-height: 40px;
-    text-align: center;
-    background-color: var(--cor03)
+    line-height: 30px;
+    text-align: right;
+    background-color: var(--cor03);
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.342);
 }
+
+
+
+
+
+
 
 .flex2 {
     background-color: var(--cor01);
@@ -115,7 +142,7 @@ header li :hover {
 .flex2 p {
     width: 100%;
     font-size: 1.3rem;
-    padding: 5px;
+    padding: 10px;
     
     
     
@@ -123,14 +150,18 @@ header li :hover {
 
 article {
     transition: .5s;
+    
 }
 
 td {
     padding: 5px;
+    
+    padding-bottom: 20px;
     font-size: 1.7rem;
-    line-height: 80px;
+    line-height: 50px;
     text-align: left;
-    padding-left: 20px;
+    
+    
 }
 
 thead {
@@ -151,30 +182,135 @@ th {
     text-align: justify;
     margin-top: auto;
     margin-bottom: auto;
-    
+    text-indent: 2em;
     font-size: 1.2rem;
-    text-align: center;
+    text-align: justify;
+    padding-left: auto;
+    padding-right: auto;
     
 }
 
 
 
 .pequena {
-   
+    
+    width: 275px;
+    height: 183px;
+    
+}
+
+.flex3 {
+    margin-bottom: auto;
+    margin-top: auto;
+    display: flex;
+    justify-items: center;
+    background-color: var(--cor03);
+    min-width: 96vw;
+}
+
+
+
+.aparencia p {
+    text-align: center;
+    text-indent: 2em;
+    
+    margin-top: 50px;
+}
+
+#paparencia2 {
+    padding-bottom: 60px;
+}
+
+#paparencia {
+    margin-top: 100px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+
+#pdieta {
+    margin-top: 50px;
+}
+
+#phabitos {
+    padding-bottom: 10px;
+}
+
+#pcativeiro {
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.pequena2 {
     width: 275px;
     height: 183px;
     display: block;
+    float: right;
+    right: 0;
     
+    margin-left: auto;
+    padding: 0px 0px 0px 10px
+}
+
+.aparencia h1{
+    border-bottom: 1px solid black;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    
+    font-size: 1.5rem;
+}
+
+.aparencia .aparenciatitulo{
+    float: left;    
+    margin-left: 40px;
+}
+
+#cativeiro {
+    float: left;
+}
+
+#dieta {
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 40px;
+}
+
+.aparencia #geografia {
+    
+    
+    float: right;
+    padding-top: 50px;
+    
+    margin-right: 40px;
+    
+}
+
+#habitos {
+    float: right;
+    margin-right: 40px;
+}
+
+#cativeiro {
+    margin-left: 40px;
+    float: left;
 
 }
 
-.separador {
-    background-color: var(--cor05);
-    height: 5px;
-    padding: 0px;
-} 
+.aparencia .pequena3{
+    min-width: 275px;
+    height: 183px;
+    float: left;
+    margin-top: 20px;
+    display: block;
+    margin-right: 0px;
+    
+}
 
-
+strong {
+    font-weight: bold;
+    font-size: 1.7rem;
+    
+}
 
 @media (max-width:1445px) {
     th {
@@ -185,30 +321,48 @@ th {
         transition: .5s;
     }
 
-    article {
-        padding: 0px;
+    p {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    table {
+        
+        margin-left: auto;
+        margin-right: auto;
+        transition: 1s;
+    }
+
+    .flex {
+        justify-content: center;
+        
     }
 
     .capa {
         width: 96vw;
     }
 
+    
+
 }
 
-@media (max-width:999px) {
+@media (max-width:1245px) {
 
     header {
         transition: 1s;
     }
 
-    .flex2 {
-        justify-content: center;
-        
-    }
-
     .flex2  {
         flex-wrap: wrap;
+        justify-content: center;
     }
+
+    .flex3 {
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    
 
     article {
         justify-content: center;
@@ -219,26 +373,34 @@ th {
         min-width: 96vw;
     }
 
-    
+    .pequena {
+        padding-top: 20px;
+    }
 
     table {
-        
         margin-left: auto;
         margin-right: auto;
         transition: 1s;
     }
-
     
-
     
-
+    
     td {
         text-align: center;
-        padding: 0px;
-        line-height: 50px;
-        font-size: 1.2rem;
-        
+        line-height: 30px;
+        font-size: 1.3rem;
     }
+
+    strong {
+        font-size: 1.3rem;
+    }
+    .aparencia .pequena3{
+        min-width: 275px;
+        height: 183px;
+        float: left;
+        margin-right: 10px;
+    }
+
 }
 
 @media (max-width:642px) {
@@ -251,7 +413,18 @@ header {
 
 header li {
     padding-bottom: 0px;
-    
+}
+
+
+
+td {
+    text-align: left;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.binomial {
+    text-align: left;
 }
 
 
@@ -259,16 +432,56 @@ header li {
 .pequena {
     width: 275px;
     height: 183px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.pequena2 {
+    min-width: 275px;
+    height: 183px;
+    padding-bottom: 0px;
+    display: block;
+   
+}
+
+.aparencia h1{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.5rem;
+}
+
+
+.aparencia p {
+    text-align: center;
+    text-indent: 2em;
+    margin-top: 50px;
+}
+ 
+#paparencia {
+    text-align: justify;
+}
+
+.aparencia #geografia {
+    float: top;
+}
+
+.aparencia .pequena3{
+    min-width: 275px;
+    height: 183px;
+    float: left;
     
 }
 
 
+ 
+#pdieta {
+    margin-top: 20px;
+    padding-top: 30px;
+}
 
-
-
-    
-    
 }
