@@ -15,6 +15,10 @@
 p {
     font-family: 'Hubbali';
     font-size: 1.7rem;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: white;
+    
 }
 
 :root {
@@ -155,6 +159,7 @@ header li :hover {
     width: 100%;
     font-size: 1.7rem;
     padding: 10px;
+    text-align: left;
     
     
     
@@ -191,11 +196,10 @@ th {
     transition: 0.5s;
     background-color: var(--cor01);
     color: black;
-    text-align: justify;
+    
     margin-top: auto;
     margin-bottom: auto;
-    text-indent: 2em;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: justify;
     padding-left: auto;
     padding-right: auto;
@@ -223,20 +227,19 @@ th {
 
 
 .aparencia p {
-    text-align: center;
-    text-indent: 2em;
+    text-align: left;
+    
     
     margin-top: 50px;
 }
 
-#paparencia2 {
-    padding-bottom: 60px;
-}
+ 
+    
 
 #paparencia {
-    margin-top: 100px;
+    margin-top: 50px;
     padding-right: 10px;
-    padding-bottom: 50px;
+    
 }
 
 #pdieta {
@@ -292,7 +295,7 @@ th {
     
     
     float: right;
-    padding-top: 50px;
+    
     
     margin-right: 40px;
     
@@ -315,7 +318,7 @@ th {
     float: left;
     margin-top: 20px;
     display: block;
-    margin-right: 0px;
+    margin-right: 10px;
     
 }
 
@@ -467,32 +470,27 @@ td {
 }
 
 
-.aparencia p {
-    text-align: center;
-    text-indent: 2em;
+p {
+    text-align: left;
     margin-top: 50px;
+    padding-bottom: 10px;
 }
  
 #paparencia {
-    text-align: justify;
+    text-align: left;
 }
 
 .aparencia #geografia {
     float: top;
 }
 
-.aparencia .pequena3{
+.aparencia .pequena4{
     min-width: 275px;
     height: 183px;
     float: left;
-    
+    padding-right: 10px;
 }
-
-
  
-#pdieta {
-    margin-top: 20px;
-    padding-top: 30px;
-}
+
 
 }
