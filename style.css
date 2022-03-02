@@ -262,6 +262,7 @@ th {
 .aparencia .aparenciatitulo{
     float: left;    
     margin-left: 40px;
+    margin-bottom: 10px;
 }
 
 #cativeiro {
@@ -419,8 +420,6 @@ header li {
 
 td {
     text-align: left;
-    padding-left: 25%;
-    padding-right: 25%;
 }
 
 .binomial {
