@@ -13,6 +13,9 @@
 }
 
 
+p {
+    transition: 1s;
+}
 
 p {
     font-family: 'Hubbali';
@@ -493,7 +496,7 @@ p {
     margin-top: 50px;
     padding-bottom: 10px;
     font-size: 1.3rem;
-    transition: 1s;
+    
 }
  
 #paparencia {
