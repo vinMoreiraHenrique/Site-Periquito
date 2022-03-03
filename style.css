@@ -16,7 +16,7 @@
 
 p {
     font-family: 'Hubbali';
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding-right: 10px;
     padding-left: 10px;
     background-color: white;
@@ -158,8 +158,8 @@ header li :hover {
 
 .flex2 p {
     
-    font-size: 1.7rem;
-    padding: 10px;
+    font-size: 1.5rem;
+    
     text-align: left;
     
     
@@ -172,7 +172,7 @@ header li :hover {
 }
 
 article, .texto{
-    transition: .5s;
+    transition: 1s;
     
     margin-left: auto;
     margin-right: auto;
@@ -204,26 +204,31 @@ th {
 
 .texto {
     
-    transition: 0.5s;
+    transition: 1s;
     background-color: var(--cor01);
     color: black;
     
     margin-top: auto;
     margin-bottom: auto;
     font-size: 1.5rem;
-    text-align: justify;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
     
 }
 
-
+.texto p{
+    transition: 1s;
+    padding-top: 20px;
+    margin-top: 120px;
+}
 
 .pequena {
     float: left;
     width: 275px;
     height: 183px;
-    
+    margin-right: 10px;
+    margin-left: 0px;
 }
 
 .flex3 {
@@ -237,7 +242,7 @@ th {
 
 
 
-.aparencia p, .texto {
+.aparencia p {
     text-align: left;
     
     
@@ -247,7 +252,7 @@ th {
  
     
 
-#paparencia, .texto {
+#paparencia {
     margin-top: 50px;
     padding-right: 10px;
     
@@ -344,7 +349,7 @@ strong {
         width: 100vw;
         margin-left:auto;
         margin-right: auto;
-        transition: .5s;
+        transition: 1s;
     }
 
     p {
@@ -399,9 +404,7 @@ strong {
         min-width: 96vw;
     }
 
-    .pequena {
-        padding-top: 20px;
-    }
+     
 
     table {
         margin-left: auto;
@@ -430,7 +433,9 @@ strong {
 }
 
 @media (max-width:642px) {
-    
+  
+
+
 header {
     padding-bottom: 0px;
     justify-content: center;
@@ -456,12 +461,12 @@ td {
 .pequena {
     width: 275px;
     height: 183px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    
+    padding-bottom: 10px;
+    
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    
 }
 
 .pequena2 {
@@ -479,11 +484,16 @@ td {
     font-size: 1.5rem;
 }
 
+.flex2 p {
+    font-size: 1.3rem;
+}
 
 p {
     text-align: left;
     margin-top: 50px;
     padding-bottom: 10px;
+    font-size: 1.3rem;
+    transition: 1s;
 }
  
 #paparencia {
