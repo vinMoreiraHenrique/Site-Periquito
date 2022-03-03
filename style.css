@@ -12,6 +12,8 @@
     src: url(Hubballi-Regular.ttf) format('truetype');
 }
 
+
+
 p {
     font-family: 'Hubbali';
     font-size: 1.7rem;
@@ -132,12 +134,12 @@ header li :hover {
 
 .flex > article {
     flex: 1 1 250px;
-    transition: .5s;
+    transition: 1s;
     padding: 10px;
     line-height: 30px;
     text-align: right;
     background-color: var(--cor03);
-    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.342);
+    
 }
 
 
@@ -149,14 +151,13 @@ header li :hover {
 .flex2 {
     background-color: var(--cor01);
     display: flex;
-    min-width: 96vw;
     
     
     
 }
 
 .flex2 p {
-    width: 100%;
+    
     font-size: 1.7rem;
     padding: 10px;
     text-align: left;
@@ -165,10 +166,20 @@ header li :hover {
     
 }
 
-article {
+.flex2 {
+    
+    min-width: 96vw;
+}
+
+article, .texto{
     transition: .5s;
     
+    margin-left: auto;
+    margin-right: auto;
+    width:1000px;
 }
+
+
 
 td {
     padding: 5px;
@@ -192,7 +203,7 @@ th {
 }
 
 .texto {
-    display: flex;
+    
     transition: 0.5s;
     background-color: var(--cor01);
     color: black;
@@ -201,15 +212,15 @@ th {
     margin-bottom: auto;
     font-size: 1.5rem;
     text-align: justify;
-    padding-left: auto;
-    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
 
 
 .pequena {
-    
+    float: left;
     width: 275px;
     height: 183px;
     
@@ -221,12 +232,12 @@ th {
     display: flex;
     justify-items: center;
     background-color: var(--cor03);
-    min-width: 96vw;
+    min-width: 98vw;
 }
 
 
 
-.aparencia p {
+.aparencia p, .texto {
     text-align: left;
     
     
@@ -236,7 +247,7 @@ th {
  
     
 
-#paparencia {
+#paparencia, .texto {
     margin-top: 50px;
     padding-right: 10px;
     
@@ -277,7 +288,6 @@ th {
 .aparencia .aparenciatitulo{
     float: left;    
     margin-left: 40px;
-    margin-bottom: 10px;
 }
 
 #cativeiro {
