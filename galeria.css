@@ -2,10 +2,29 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Arial';
     list-style: none;
     font-size: 1.2rem;
 }
+
+@font-face {
+    font-family: Hubbali;
+    src: url(Hubballi-Regular.ttf) format('truetype');
+}
+
+p {
+    transition: 1s;
+}
+
+a {
+    font-family: 'Hubbali';
+    font-size: 1.5rem;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    
+}
+
 
 :root {
     --cor01: #F3D9B1;
@@ -35,7 +54,7 @@ header {
 header a{
     word-wrap: normal;
     text-align: center;
-    
+    font-family: 'Hubbali';
 }
 
 header h1 {
