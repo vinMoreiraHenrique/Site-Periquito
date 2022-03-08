@@ -108,8 +108,6 @@ header li :hover {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
-    
 }
 
 
@@ -126,7 +124,7 @@ header li :hover {
     padding: 10px;
     font-size: 16pt;
     text-align: center;
-    padding: 0px 10px 0px 10px;
+    
 }
 
 .h-1 {
@@ -187,15 +185,12 @@ td {
     padding-right: 25%;
 }
 
-.f-1 {
-    display: block;
-    width: 100%;
-    
-}
+
 
 .container-galeria {
     grid-template-columns: repeat(1,1fr);
-    grid-auto-rows: auto;
+    grid-auto-rows: 50vh;
+    
     }
 
 
