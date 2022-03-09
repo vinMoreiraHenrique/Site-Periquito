@@ -1,0 +1,163 @@
+* {
+    
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+@font-face {
+    font-family: Hubbali;
+    src: url(Hubballi-Regular.ttf) format('truetype');
+}
+
+
+
+
+:root {
+    --cor01: #F3D9B1;
+    --cor02: #C29979;
+    --cor03: #A8C256;
+    --cor04: #813405;
+    --cor05: #69626D;
+}
+
+body {
+    background-color: var(--cor01);
+    
+    
+}
+
+header {
+    background-color: var(--cor05);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    transition: 0.5s;
+    padding-bottom: 0px;
+    
+    ;
+}
+
+header a{
+    word-wrap: normal;
+    text-align: center;
+    font-family: 'Hubbali';
+    font-size: 1.5rem;
+}
+
+header h1 {
+    font-size: 50px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+header li {
+   
+    padding-bottom: 0px;
+}
+
+header a {
+    
+    text-decoration: none;
+    color: white;
+}
+
+header li :hover {
+    transition: .5s;
+    
+    color: var(--cor03);
+    
+    
+    
+    
+    transform: translateY(-10px);
+    
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    bottom: 0;
+}
+
+
+
+.contato {
+    background-color: var(--cor03);
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    height: 200px;
+    width: 1000px;
+    padding: 5px 5px 10px 10px;
+    word-wrap: break-word;
+    padding-right: 10px;
+    box-shadow: 10px;
+}
+
+.contato p {
+    font-family: 'Hubbali';
+    background-color: azure;
+    padding: 10px 0px 0px 10px;
+}
+
+.contato > .telefone {
+    font-family: 'Hubbali';
+    padding-top: 35px;
+}
+
+
+
+@media (max-width:1245px) {
+    .contato {width: 96vw;
+    }
+
+    header {
+        transition: 1s;
+    }
+
+    
+
+    strong {
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media (max-width:642px) {
+    
+header {
+    padding-bottom: 0px;
+    justify-content: center;
+    transition: 1s;
+}
+
+header li {
+    padding-bottom: 0px;
+}
+
+
+
+td {
+    text-align: left;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+
+
+
+
+}
