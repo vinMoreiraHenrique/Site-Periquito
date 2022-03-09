@@ -16,7 +16,7 @@ p {
     transition: 1s;
 }
 
-a {
+p {
     font-family: 'Hubbali';
     font-size: 1.5rem;
     padding-right: 10px;
@@ -48,13 +48,15 @@ header {
     padding: 20px;
     transition: 0.5s;
     padding-bottom: 0px;
-    ;
+    
+    
 }
 
 header a{
     word-wrap: normal;
     text-align: center;
     font-family: 'Hubbali';
+    font-size: 1.5rem;
 }
 
 header h1 {

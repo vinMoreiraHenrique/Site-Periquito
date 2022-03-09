@@ -104,13 +104,16 @@ header li :hover {
     padding: 5px 5px 10px 10px;
     word-wrap: break-word;
     padding-right: 10px;
-    box-shadow: 10px;
+    
+    
 }
 
 .contato p {
     font-family: 'Hubbali';
     background-color: azure;
     padding: 10px 0px 0px 10px;
+    font-size: 1.4rem;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.24);
 }
 
 .contato > .telefone {
