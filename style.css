@@ -36,7 +36,6 @@ p {
 
 body {
     background-color: white;
-    
 }
 
 header {
@@ -48,8 +47,6 @@ header {
     padding: 20px;
     transition: 0.5s;
     padding-bottom: 0px;
-    
-    ;
 }
 
 header a{
@@ -66,26 +63,18 @@ header h1 {
 }
 
 header li {
-   
-    padding-bottom: 0px;
+   padding-bottom: 0px;
 }
 
 header a {
-    
     text-decoration: none;
     color: white;
 }
 
 header li :hover {
     transition: .5s;
-    
     color: var(--cor03);
-    
-    
-    
-    
     transform: translateY(-10px);
-    
 }
 
 .menu {
@@ -103,13 +92,8 @@ header li :hover {
 }
 
 .img {
-    
-    
     background-color: #92D9FF;
     padding: 10px;
-    
-   
-    
 }
 
 img {
@@ -132,11 +116,9 @@ img {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    
     justify-content: center;
     margin: 0 auto;
     background-color: #92D9FF;
-    
 }
 
 .flex > article {
@@ -146,7 +128,6 @@ img {
     line-height: 30px;
     text-align: right;
     background-color: var(--cor03);
-    
 }
 
 
@@ -157,30 +138,20 @@ img {
 
 .flex2 {
     background-color: var(--cor01);
-    display: flex;
-    
-    
-    
+    display: flex;   
 }
 
 .flex2 p {
-    
     font-size: 1.5rem;
-    
-    text-align: left;
-    
-    
-    
+    text-align: left;   
 }
 
 .flex2 {
-    
     min-width: 96vw;
 }
 
 article, .texto{
     transition: 1s;
-    
     margin-left: auto;
     margin-right: auto;
     width:1000px;
@@ -190,13 +161,10 @@ article, .texto{
 
 td {
     padding: 5px;
-    
     padding-bottom: 20px;
     font-size: 1.7rem;
     line-height: 50px;
     text-align: left;
-    
-    
 }
 
 thead {
@@ -210,18 +178,15 @@ th {
 }
 
 .texto {
-    
     transition: 1s;
     background-color: var(--cor01);
     color: black;
-    
     margin-top: auto;
     margin-bottom: auto;
     font-size: 1.5rem;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .texto p{
@@ -251,8 +216,6 @@ th {
 
 .aparencia p {
     text-align: left;
-    
-    
     margin-top: 50px;
 }
 
@@ -262,7 +225,6 @@ th {
 #paparencia {
     margin-top: 50px;
     padding-right: 10px;
-    
 }
 
 #pdieta {
@@ -284,7 +246,6 @@ th {
     display: block;
     float: right;
     right: 0;
-    
     margin-left: auto;
     padding: 0px 0px 0px 10px
 }
@@ -293,7 +254,6 @@ th {
     border-bottom: 1px solid black;
     margin-bottom: 0px;
     margin-top: 10px;
-    
     font-size: 1.5rem;
 }
 
@@ -314,13 +274,8 @@ th {
 }
 
 .aparencia #geografia {
-    
-    
     float: right;
-    
-    
     margin-right: 40px;
-    
 }
 
 #habitos {
@@ -331,7 +286,6 @@ th {
 #cativeiro {
     margin-left: 40px;
     float: left;
-
 }
 
 .aparencia .pequena3{
@@ -341,13 +295,11 @@ th {
     margin-top: 20px;
     display: block;
     margin-right: 10px;
-    
 }
 
 strong {
     font-weight: bold;
     font-size: 1.7rem;
-    
 }
 
 @media (max-width:1445px) {
@@ -365,15 +317,13 @@ strong {
     }
 
     table {
-        
         margin-left: auto;
         margin-right: auto;
         transition: 1s;
     }
 
     .flex {
-        justify-content: center;
-        
+        justify-content: center; 
     }
 
     .capa {
@@ -403,8 +353,7 @@ strong {
     
 
     article {
-        justify-content: center;
-        
+        justify-content: center;  
     }
 
     .capa {
@@ -468,12 +417,9 @@ td {
 .pequena {
     width: 275px;
     height: 183px;
-    
     padding-bottom: 10px;
-    
     display: block;
     margin-left: auto;
-    
 }
 
 .pequena2 {
@@ -481,7 +427,6 @@ td {
     height: 183px;
     padding-bottom: 0px;
     display: block;
-   
 }
 
 .aparencia h1{
@@ -500,7 +445,6 @@ p {
     margin-top: 50px;
     padding-bottom: 10px;
     font-size: 1.3rem;
-    
 }
  
 #paparencia {

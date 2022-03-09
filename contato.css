@@ -1,5 +1,4 @@
 * {
-    
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,9 +23,7 @@
 }
 
 body {
-    background-color: var(--cor01);
-    
-    
+    background-color: var(--cor01);   
 }
 
 header {
@@ -38,8 +35,6 @@ header {
     padding: 20px;
     transition: 0.5s;
     padding-bottom: 0px;
-    
-    ;
 }
 
 header a{
@@ -56,26 +51,18 @@ header h1 {
 }
 
 header li {
-   
-    padding-bottom: 0px;
+   padding-bottom: 0px;
 }
 
 header a {
-    
     text-decoration: none;
     color: white;
 }
 
 header li :hover {
     transition: .5s;
-    
     color: var(--cor03);
-    
-    
-    
-    
     transform: translateY(-10px);
-    
 }
 
 .menu {
@@ -104,8 +91,6 @@ header li :hover {
     padding: 5px 5px 10px 10px;
     word-wrap: break-word;
     padding-right: 10px;
-    
-    
 }
 
 .contato p {
@@ -124,19 +109,19 @@ header li :hover {
 
 
 @media (max-width:1245px) {
-    .contato {width: 96vw;
-    }
+.contato {width: 96vw;
+}
 
-    header {
-        transition: 1s;
-    }
+header {
+    transition: 1s;
+}
 
-    
 
-    strong {
-        font-size: 1.3rem;
-    }
-    
+
+strong {
+    font-size: 1.3rem;
+}
+
 }
 
 @media (max-width:642px) {
